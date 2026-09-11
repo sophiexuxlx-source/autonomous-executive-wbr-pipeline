@@ -1,0 +1,24 @@
+# Environment & Secrets
+.env
+.env.local
+*.key
+*.pem
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+env/
+venv/
+
+# Temporary generated images & logs
+temp_chart.png
+*.log
+
+# Editor & OS settings
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
